@@ -17,6 +17,7 @@
 		EB2C97EA22ACB14D005FF71C /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C97E922ACB14D005FF71C /* DataSet.swift */; };
 		EB2C981022ACDB25005FF71C /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C980F22ACDB25005FF71C /* CategoryCell.swift */; };
 		EB2C981222ACE5EE005FF71C /* RecipesSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C981122ACE5EE005FF71C /* RecipesSelectionVC.swift */; };
+		EB2C981422ACEEAA005FF71C /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C981322ACEEAA005FF71C /* RecipeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		EB2C97E922ACB14D005FF71C /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
 		EB2C980F22ACDB25005FF71C /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		EB2C981122ACE5EE005FF71C /* RecipesSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesSelectionVC.swift; sourceTree = "<group>"; };
+		EB2C981322ACEEAA005FF71C /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				EB2C980F22ACDB25005FF71C /* CategoryCell.swift */,
+				EB2C981322ACEEAA005FF71C /* RecipeCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				EB2C97D322ACAF8C005FF71C /* HomeVC.swift in Sources */,
 				EB2C97EA22ACB14D005FF71C /* DataSet.swift in Sources */,
 				EB2C97E622ACB09C005FF71C /* FoodCategory.swift in Sources */,
+				EB2C981422ACEEAA005FF71C /* RecipeCell.swift in Sources */,
 				EB2C97D122ACAF8C005FF71C /* AppDelegate.swift in Sources */,
 				EB2C981222ACE5EE005FF71C /* RecipesSelectionVC.swift in Sources */,
 				EB2C97E822ACB0EC005FF71C /* Recipe.swift in Sources */,
