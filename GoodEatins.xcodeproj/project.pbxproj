@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB2C97D122ACAF8C005FF71C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C97D022ACAF8C005FF71C /* AppDelegate.swift */; };
-		EB2C97D322ACAF8C005FF71C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C97D222ACAF8C005FF71C /* ViewController.swift */; };
+		EB2C97D322ACAF8C005FF71C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C97D222ACAF8C005FF71C /* HomeVC.swift */; };
 		EB2C97D622ACAF8C005FF71C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2C97D422ACAF8C005FF71C /* Main.storyboard */; };
 		EB2C97D822ACAF8E005FF71C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2C97D722ACAF8E005FF71C /* Assets.xcassets */; };
 		EB2C97DB22ACAF8E005FF71C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2C97D922ACAF8E005FF71C /* LaunchScreen.storyboard */; };
@@ -16,12 +16,13 @@
 		EB2C97E822ACB0EC005FF71C /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C97E722ACB0EC005FF71C /* Recipe.swift */; };
 		EB2C97EA22ACB14D005FF71C /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C97E922ACB14D005FF71C /* DataSet.swift */; };
 		EB2C981022ACDB25005FF71C /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C980F22ACDB25005FF71C /* CategoryCell.swift */; };
+		EB2C981222ACE5EE005FF71C /* RecipesSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C981122ACE5EE005FF71C /* RecipesSelectionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB2C97CD22ACAF8C005FF71C /* GoodEatins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodEatins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2C97D022ACAF8C005FF71C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB2C97D222ACAF8C005FF71C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB2C97D222ACAF8C005FF71C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		EB2C97D522ACAF8C005FF71C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB2C97D722ACAF8E005FF71C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB2C97DA22ACAF8E005FF71C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +31,7 @@
 		EB2C97E722ACB0EC005FF71C /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		EB2C97E922ACB14D005FF71C /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
 		EB2C980F22ACDB25005FF71C /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		EB2C981122ACE5EE005FF71C /* RecipesSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesSelectionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 		EB2C97E422ACB056005FF71C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				EB2C97D222ACAF8C005FF71C /* ViewController.swift */,
+				EB2C97D222ACAF8C005FF71C /* HomeVC.swift */,
+				EB2C981122ACE5EE005FF71C /* RecipesSelectionVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -171,10 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB2C97D322ACAF8C005FF71C /* ViewController.swift in Sources */,
+				EB2C97D322ACAF8C005FF71C /* HomeVC.swift in Sources */,
 				EB2C97EA22ACB14D005FF71C /* DataSet.swift in Sources */,
 				EB2C97E622ACB09C005FF71C /* FoodCategory.swift in Sources */,
 				EB2C97D122ACAF8C005FF71C /* AppDelegate.swift in Sources */,
+				EB2C981222ACE5EE005FF71C /* RecipesSelectionVC.swift in Sources */,
 				EB2C97E822ACB0EC005FF71C /* Recipe.swift in Sources */,
 				EB2C981022ACDB25005FF71C /* CategoryCell.swift in Sources */,
 			);
