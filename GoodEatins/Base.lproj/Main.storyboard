@@ -131,11 +131,62 @@
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="q2f-KP-f6i" id="Hef-jN-aMP"/>
+                        <segue destination="TZt-CV-7vZ" kind="show" identifier="toRecipeSelection" id="pof-Ne-vLF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="umR-WH-YCt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1868" y="114.69265367316342"/>
+        </scene>
+        <!--Recipe DetailVC-->
+        <scene sceneID="0L6-h0-k1z">
+            <objects>
+                <viewController id="TZt-CV-7vZ" customClass="RecipeDetailVC" customModule="GoodEatins" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lFa-30-AaN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="salad0" translatesAutoresizingMaskIntoConstraints="NO" id="NsA-Mb-wA5">
+                                <rect key="frame" x="0.0" y="64" width="375" height="225"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="225" id="kMf-ME-Inz"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sumon Salad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THa-hy-Y4o">
+                                <rect key="frame" x="121.5" y="323" width="132.5" height="29"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3OJ-Li-vdk">
+                                <rect key="frame" x="20" y="370" width="335" height="22.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="THa-hy-Y4o" firstAttribute="top" secondItem="NsA-Mb-wA5" secondAttribute="bottom" constant="34" id="AyR-Jr-Ghr"/>
+                            <constraint firstItem="3OJ-Li-vdk" firstAttribute="top" secondItem="THa-hy-Y4o" secondAttribute="bottom" constant="18" id="Bzp-HC-KYS"/>
+                            <constraint firstItem="ioS-M3-Fl4" firstAttribute="trailing" secondItem="3OJ-Li-vdk" secondAttribute="trailing" constant="20" id="PqQ-QU-bhi"/>
+                            <constraint firstItem="NsA-Mb-wA5" firstAttribute="top" secondItem="ioS-M3-Fl4" secondAttribute="top" id="YLw-pc-wbw"/>
+                            <constraint firstItem="THa-hy-Y4o" firstAttribute="centerX" secondItem="lFa-30-AaN" secondAttribute="centerX" id="Yqr-Ex-64R"/>
+                            <constraint firstItem="NsA-Mb-wA5" firstAttribute="leading" secondItem="ioS-M3-Fl4" secondAttribute="leading" id="edx-pb-oGW"/>
+                            <constraint firstItem="NsA-Mb-wA5" firstAttribute="trailing" secondItem="ioS-M3-Fl4" secondAttribute="trailing" id="nT4-7d-c8y"/>
+                            <constraint firstItem="3OJ-Li-vdk" firstAttribute="leading" secondItem="ioS-M3-Fl4" secondAttribute="leading" constant="20" id="qog-3b-UcN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ioS-M3-Fl4"/>
+                    </view>
+                    <connections>
+                        <outlet property="recipeImg" destination="NsA-Mb-wA5" id="g6i-e4-5fp"/>
+                        <outlet property="recipeInstructions" destination="3OJ-Li-vdk" id="gCf-9n-ER4"/>
+                        <outlet property="recipeTitle" destination="THa-hy-Y4o" id="SnR-CA-nY2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HYc-Xa-ogl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2652" y="114.69265367316342"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jRX-6q-daY">
@@ -158,6 +209,7 @@
     </scenes>
     <resources>
         <image name="burger6" width="966" height="725"/>
+        <image name="salad0" width="1053" height="699"/>
         <image name="salad6" width="1050" height="700"/>
     </resources>
 </document>

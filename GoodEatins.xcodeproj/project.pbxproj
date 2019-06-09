@@ -18,6 +18,7 @@
 		EB2C981022ACDB25005FF71C /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C980F22ACDB25005FF71C /* CategoryCell.swift */; };
 		EB2C981222ACE5EE005FF71C /* RecipesSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C981122ACE5EE005FF71C /* RecipesSelectionVC.swift */; };
 		EB2C981422ACEEAA005FF71C /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C981322ACEEAA005FF71C /* RecipeCell.swift */; };
+		EB2C981622ACF8A0005FF71C /* RecipeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C981522ACF8A0005FF71C /* RecipeDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		EB2C980F22ACDB25005FF71C /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		EB2C981122ACE5EE005FF71C /* RecipesSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesSelectionVC.swift; sourceTree = "<group>"; };
 		EB2C981322ACEEAA005FF71C /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		EB2C981522ACF8A0005FF71C /* RecipeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				EB2C97D222ACAF8C005FF71C /* HomeVC.swift */,
 				EB2C981122ACE5EE005FF71C /* RecipesSelectionVC.swift */,
+				EB2C981522ACF8A0005FF71C /* RecipeDetailVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB2C981622ACF8A0005FF71C /* RecipeDetailVC.swift in Sources */,
 				EB2C97D322ACAF8C005FF71C /* HomeVC.swift in Sources */,
 				EB2C97EA22ACB14D005FF71C /* DataSet.swift in Sources */,
 				EB2C97E622ACB09C005FF71C /* FoodCategory.swift in Sources */,
